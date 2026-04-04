@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Causal Games is an independent web game studio building fast, family-friendly browser games with physics-driven mechanics and tight replayable loops.">
+  <meta property="og:title" content="Causal Games — Web Game Studio">
+  <meta property="og:description" content="We build browser games that load fast, play instantly, and keep players coming back for one more round.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="media/causal-games-logo-only-transp_bg_removed.png">
+  <title>Causal Games — Web Game Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Causal Games home">
+        <img src="media/causal-games-logo-only-transp_bg_removed.png" alt="Causal Games logo" width="44" height="44">
+        <span>Causal Games</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Primary navigation">
+        <a href="#about">Studio</a>
+        <a href="#games">Games</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================== HERO ============================== -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Web-first game studio</p>
+          <h1>Games that hook you in <em>seconds</em>, built for the browser.</h1>
+          <p class="hero-copy">
+            Causal Games creates physics-driven, family-friendly browser games with tight loops
+            and instant onboarding &mdash; pure enjoyment with no installs, no pay walls.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#games">See Our Games</a>
+            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="magnet-demo">
+            <div class="arena-ring"></div>
+            <div class="stone s1"></div>
+            <div class="stone s2"></div>
+            <div class="stone s3"></div>
+            <div class="stone s4"></div>
+            <div class="stone s5"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="hero-stats reveal">
+          <li>
+            <strong>Instant Play</strong>
+            <span>0 installs &mdash; gameplay in seconds</span>
+          </li>
+          <li>
+            <strong>Mobile + Desktop</strong>
+            <span>Every screen, every device</span>
+          </li>
+          <li>
+            <strong>Family Safe</strong>
+            <span>Wholesome content for all ages</span>
+          </li>
+          <li>
+            <strong>Always Free</strong>
+            <span>No pay walls, ever</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section id="about" class="section-about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="eyebrow">About the studio</p>
+            <h2>Built around cause and effect.</h2>
+            <p>
+              Founded in 2026, Causal Games takes its name from <em>causal</em> &mdash; relating to direct
+              cause and effect. Every game we make is built around a satisfying loop: action in, instant
+              reaction out. No bloat, no confusion, just clear mechanics and the pull of &ldquo;one more round.&rdquo;
+            </p>
+            <p>
+              We build exclusively for the web browser. Our games must load fast, play beautifully on mobile,
+              and never ask for money. Performance, accessibility, and polish are built in from day one.
+            </p>
+          </div>
+          <aside class="values-list reveal">
+            <ul>
+              <li>
+                <span class="value-icon">⚡</span>
+                <div>
+                  <strong>Fast by default</strong>
+                  <p>Lightweight builds. First interaction under 10 seconds.</p>
+                </div>
+              </li>
+              <li>
+                <span class="value-icon">🔁</span>
+                <div>
+                  <strong>Loop-first design</strong>
+                  <p>Every mechanic earns its place in the core loop.</p>
+                </div>
+              </li>
+              <li>
+                <span class="value-icon">📱</span>
+                <div>
+                  <strong>Mobile-first builds</strong>
+                  <p>Touch, mouse, and keyboard &mdash; responsive from day one.</p>
+                </div>
+              </li>
+              <li>
+                <span class="value-icon">🎯</span>
+                <div>
+                  <strong>Data-informed iteration</strong>
+                  <p>We playtest early and tune against session quality.</p>
+                </div>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PHILOSOPHY ============================== -->
+    <section id="philosophy" class="section-philosophy">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Design philosophy</p>
+          <h2>What we care about when building games.</h2>
+        </div>
+        <div class="philosophy-grid">
+          <article class="phil-card reveal">
+            <div class="phil-num">01</div>
+            <h3>Zero-friction onboarding</h3>
+            <p>
+              Players learn through doing, not reading. Tutorials are embedded in the first
+              30 seconds. No intro screens. No mandatory text walls.
+            </p>
+          </article>
+          <article class="phil-card reveal">
+            <div class="phil-num">02</div>
+            <h3>Repeatable core loop</h3>
+            <p>
+              We design for average sessions over 3 minutes with a natural retry pull.
+              Each game has a single clear fail state and an instant reboot.
+            </p>
+          </article>
+          <article class="phil-card reveal">
+            <div class="phil-num">03</div>
+            <h3>Lightweight performance</h3>
+            <p>
+              Initial downloads stay lean. We target 60 FPS on mid-range mobile with
+              no blocking external dependencies.
+            </p>
+          </article>
+          <article class="phil-card reveal">
+            <div class="phil-num">04</div>
+            <h3>Wholesome, inclusive content</h3>
+            <p>
+              Family-safe themes only &mdash; no graphic violence, no gambling mechanics,
+              no stereotypes. Games for the whole household.
+            </p>
+          </article>
+          <article class="phil-card reveal">
+            <div class="phil-num">05</div>
+            <h3>Original mechanics first</h3>
+            <p>
+              We start with a mechanic we haven&rsquo;t seen in a browser before, then refine
+              it until the feel is right. No trend chasing.
+            </p>
+          </article>
+          <article class="phil-card reveal">
+            <div class="phil-num">06</div>
+            <h3>Natural monetization flow</h3>
+            <p>
+              Loop breaks are designed organically &mdash; respecting the player experience
+              while keeping the game sustainable.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== GAMES ============================== -->
+    <section id="games" class="section-games">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">In development</p>
+          <h2>Current game pipeline.</h2>
+        </div>
+
+        <!-- Featured game: Kluster -->
+        <article class="featured-game reveal">
+          <div class="featured-game-body">
+            <div class="featured-game-content">
+              <p class="eyebrow game-status">Active development</p>
+              <h3>Kluster &mdash; magnetic dexterity game</h3>
+              <p>
+                Players take turns placing magnetic stones inside a rope boundary.
+                Place a stone that triggers a cluster &mdash; any stones snapping together
+                by magnetic attraction &mdash; and those stones are yours to keep.
+                First player to empty their hand wins.
+              </p>
+              <p>
+                The engine models real dipole-dipole interactions: positions, orientations,
+                and chain reactions emerge from physics forces rather than scripted triggers.
+                Every round plays differently.
+              </p>
+              <ul class="feature-list">
+                <li>Physics-first magnetic interaction engine</li>
+                <li>Dynamic rope boundary that reacts to the arena</li>
+                <li>Short rounds with high retry pull</li>
+                <li>Local multiplayer and AI opponent modes</li>
+                <li>Accessible touch and mouse controls</li>
+              </ul>
+            </div>
+
+            <aside class="working-titles">
+              <p class="eyebrow">Working title candidates</p>
+              <h4>5 Names Under Evaluation</h4>
+              <ol class="title-list">
+                <li>
+                  <span class="title-name">Magnetica</span>
+                  <span class="title-desc">Elegant arena. Pure magnetic strategy.</span>
+                </li>
+                <li>
+                  <span class="title-name">SnapZone</span>
+                  <span class="title-desc">One move from chain reaction.</span>
+                </li>
+                <li>
+                  <span class="title-name">Polarity Rush</span>
+                  <span class="title-desc">Race against your own attraction.</span>
+                </li>
+                <li>
+                  <span class="title-name">Stone Drift</span>
+                  <span class="title-desc">Navigate the pull between forces.</span>
+                </li>
+                <li>
+                  <span class="title-name">Clusterfall</span>
+                  <span class="title-desc">The cascade you didn&rsquo;t see coming.</span>
+                </li>
+              </ol>
+            </aside>
+          </div>
+        </article>
+
+        <!-- Coming soon -->
+        <div class="coming-soon-grid reveal">
+          <article class="coming-soon-card">
+            <p class="game-badge">Playable preview</p>
+            <h4>Kluster</h4>
+            <p>Players take turns placing magnetic stones inside a rope boundary. Real dipole-dipole physics, AI opponents.</p>
+            <a class="btn btn-primary" href="preview/kluster-v4.min.html" target="_blank" style="margin-top: 14px; display: inline-block;">Play Preview →</a>
+          </article>
+          <article class="coming-soon-card">
+            <p class="game-badge">In concept</p>
+            <h4>Next Title</h4>
+            <p>Spatial reasoning puzzle with elegant mechanics. Short sessions, perfect for quick play.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== QUALITY TARGETS ============================== -->
+    <section class="section-targets">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Quality targets</p>
+          <h2>The bar we set for every release.</h2>
+        </div>
+        <div class="targets-grid reveal">
+          <div class="target-item">
+            <span class="target-value">&lt;&nbsp;10s</span>
+            <span class="target-label">Time to first meaningful interaction</span>
+          </div>
+          <div class="target-item">
+            <span class="target-value">3+ min</span>
+            <span class="target-label">Target average session length</span>
+          </div>
+          <div class="target-item">
+            <span class="target-value">60 fps</span>
+            <span class="target-label">Target framerate on mid-range mobile</span>
+          </div>
+          <div class="target-item">
+            <span class="target-value">&lt; 8 MB</span>
+            <span class="target-label">Maximum initial download size</span>
+          </div>
+          <div class="target-item">
+            <span class="target-value">16:9</span>
+            <span class="target-label">Responsive scaling, desktop and mobile</span>
+          </div>
+          <div class="target-item">
+            <span class="target-value">Free</span>
+            <span class="target-label">Always free to play, zero pay walls</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER / CONTACT ============================== -->
+  <footer id="contact" class="site-footer reveal">
+    <div class="container footer-inner">
+      <div class="footer-cta">
+        <p class="eyebrow">Say hello</p>
+        <h2>Ready to talk?</h2>
+        <p>
+          We are open to partnerships, publishing conversations, and collaborations with
+          platforms that share our commitment to quality web gaming experiences.
+        </p>
+        <a class="btn btn-primary" href="mailto:contact@causal-games.com">contact@causal-games.com</a>
+      </div>
+      <div class="footer-brand">
+        <img src="media/causal-games-logo-only-transp_bg_removed.png" alt="Causal Games" width="80" height="80">
+        <p class="small">
+          &copy; <span id="year"></span> Causal Games<br>
+          Web games built for joy.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "node build-preview.js"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^5.4.1"
+  }
+}

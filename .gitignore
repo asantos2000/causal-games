@@ -1,0 +1,8 @@
+_bmad/
+_bmad-output/
+.specstory/
+.github/*
+!.github/workflows/
+docs/
+node_modules/
+preview/kluster-v4.html
